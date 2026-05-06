@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OneCX</title>
+  <meta name="description" content="Quick access to OneCX resources." />
+  <link rel="icon" type="image/png" href="./onecx_logo.png" />
+  <link rel="shortcut icon" type="image/png" href="./onecx_logo.png" />
+  <link rel="apple-touch-icon" href="./onecx_logo.png" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="OneCX Home">
+        <img class="brand__logo" src="./onecx_logo.png" alt="OneCX" />
+          <span class="brand__text">OneCX</span>
+      </a>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch theme">
+        <span class="theme-toggle__icon" aria-hidden="true">◐</span>
+        <span class="theme-toggle__text">Theme</span>
+      </button>
+    </header>
+
+
+        <section class="intro" aria-labelledby="intro-title">
+        <h2 id="intro-title">OneCX</h2>
+        <p class="intro__subtitle">a smart coding platform</p>
+        <p class="intro__description">
+          We are a technology-driven organization focused on creating scalable and efficient solution for digital manufacturing and software industrialization. Our goal is to bridge the gap between industrial operations and modern digital platforms, empowering companies to innovate faster and smarter.
+        </p>
+      </section>
+
+    <main class="content">
+      <section class="hero" aria-labelledby="title">
+        <h1 id="title">Resources</h1>
+        <p>Central access to docs, repositories, packages, and platform references.</p>
+      </section>
+
+
+      <section>
+        <div id="resourceGrid" class="resource-grid" aria-live="polite"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
